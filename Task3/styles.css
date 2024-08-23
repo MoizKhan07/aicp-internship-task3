@@ -1,0 +1,86 @@
+.top-foods,
+.top-schools,
+.top-agencies{
+    margin: 2em 3em;
+    padding: 1em;
+    font-size: 1.5em;
+    box-shadow: 1px 1px 10px rgb(150, 148, 148);
+    border-radius: .5em;
+}
+
+.top-foods{
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/39/420/874/birds-design-4k-green-wallpaper-741d36c5b1bf32f20b2bb41fffae6e7c.jpg');
+    object-fit: cover;
+    background-size: cover;
+}
+
+.top-schools{
+    background-image: url('https://c0.wallpaperflare.com/path/534/41/125/school-books-young-adult-education-3c23f0ea26f92dd38c32e949214ee647.jpg');
+    object-fit: cover;
+    background-size: cover;
+}
+
+.top-agencies{
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/377/82/449/5bf55b183fa85-wallpaper-034b13adcd791bc59ff602d7487bd808.jpg');
+    object-fit: cover;
+    background-size: cover;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards div{
+    display: flex;
+    margin: 1em 0;
+    justify-content: space-between;
+}
+
+.card{
+    
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(194, 190, 190);
+    border-radius: .5em;
+    padding: 0.5em 1em;
+    width: 27%;
+    box-shadow: 1px 1px 10px rgb(155, 154, 154);
+}
+
+.card h3{
+    margin: 0 0 .5em 0;
+}
+
+.card img{
+    border: 1px solid black;
+    border-radius: .5em;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1em;
+}
+
+/*Login page*/
+.login-form{
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 2em;
+    margin: 5em auto;
+    width: 500px;
+    padding: 2em;
+    font-size: 24px;
+    box-shadow: 0px 2px 30px black;
+}
+
+.login-form h1{
+    margin-bottom: .5em;
+}
+
+.login-form input{
+    margin-bottom: 1em;
+}
+
+.login-form button{
+    font-size: 20px;
+}
